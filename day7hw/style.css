@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: gray;
+    
+}
+.navlogo{
+    font-size: 30px;
+}
+.navcontent{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    display: block;
+}
+.dropdown{
+    display: none;
+}
+.nav-item ul li{
+    list-style: none;
+    position: relative;
+    
+}
+.nav-item ul li:hover{
+    background-color: blueviolet;
+}
+.nav-item ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}
+.maincontent{
+height: 500px;
+width: 900px;
+position: relative;
+background-color: teal;
+margin: auto;
+margin-top: 100px ;
+}
+.content1{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    border-radius: 50px;
+}
+.content2{
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    border-radius: 50px;
+}
+.content3{
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 160px;
+    left: 250px;
+    border-radius: 50px;
+
+}
+.content4{
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 280px ;
+    left: 250px;
+    border-radius: 50px;
+}
+.content5{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 400px;
+    background-color: yellowgreen;
+    left: 250px;
+    border-radius: 50px;
+}
+.content6{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: yellowgreen;
+    top: 120px;
+    left: 450px;
+    border-radius: 50px;
+}
+.content7{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    background-color: yellowgreen;
+    border-radius: 50px;
+    border-radius: 50px;
+}
+.content8{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    background-color: yellowgreen;
+    border-radius: 50px;
+}
+.content9{
+    width: 70px;
+    height: 70px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 220px;
+    left: 600px;
+    border-radius: 50px;
+}
+.content10{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 380px;
+    left: 600px;
+    background-color: yellowgreen;
+    border-radius: 50px;
+}
+.content11{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: yellowgreen;
+    left: 750px;
+    top: 230px;
+    border-radius: 50px;
+}
