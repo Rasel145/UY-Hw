@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    height: 60px;
+    background-color: gray;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navitem1{
+    width: 500px;
+    
+}
+.navitem2{
+     width: 400px;
+     display: flex;
+     justify-content: space-between;
+}
+.navitem2 i{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.navitem3{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px ;
+}
+.navitem1 i{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: blue;
+}
+.navitem1 input{
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 350px;
+    padding: 20px;
+}
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.item1{
+    padding: 10px;
+}
+.item2{
+    padding: 10px;
+}
+.item1 input,
+.item2 input{
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.item3 button{
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    background-color: skyblue;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item3 button a{
+    text-decoration: none;
+    color: white;
+}
+.item4{
+    padding: 10px;
+}
+.item4 p{
+   text-align: center;
+   font-size: 16px;
+   color: blue;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.item5{
+    padding: 20px;
+}
+.item6{
+    padding: 10px;
+}
+.item6 button{
+    display: block;
+    height: 45px;
+    width: 60%;
+    margin: auto;
+    background-color: green ;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item6 button a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.container1{
+    width: 600px;
+    height: 500px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+}
+.item7{
+    display: flex;
+    justify-content: space-between;
+}
+.item7 h1{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item7 h1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item7 h2 i{
+    color: red;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.item8{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.fname{
+    padding: 10px;
+    
+}
+.fname input,
+.surname input{
+    font-size: 20px;
+    font-family:Open Sans ;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+.surname{
+    padding: 10px;
+}
+
+.item9 input,
+.item10 input{
+    font-size: 20px;
+    font-family:Open Sans ;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+}
+.item9 ,.item10 , .item11 , .item12 , .item13{
+    padding: 10px;
+}
+.item11 label{
+    display: block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.item11 select{
+    height: 40px;
+    width: 32%;
+    border-radius: 5px;
+}
+.item12 label{
+    display: block;
+    font-size: 20px;
+}
+.gender{
+    height: 40px;
+    width: 32%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item13{
+    
+}
+.item13 button{
+    background-color: green;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+   margin: auto;
+   display: block;
+}
